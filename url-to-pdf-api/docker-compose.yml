@@ -1,0 +1,5 @@
+version: '3'
+services:
+  url-to-pdf-api:
+    build: .
+    image: anydong/url-to-pdf-api:0.0.1
