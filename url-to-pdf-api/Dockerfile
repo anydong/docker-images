@@ -67,14 +67,11 @@ WORKDIR /tmp
 RUN wget https://fonts.google.com/download?family=Roboto -O Roboto.zip \
     && unzip -o Roboto.zip -d /usr/share/fonts \
     && fc-cache \
-    && wget https://fonts.google.com/download?family=Noto%20Sans%20HK -O Noto_Sans_HK.zip \
-    && unzip -o Noto_Sans_HK.zip -d /usr/share/fonts \
+    && wget https://fonts.google.com/download?family=Noto%20Sans%20SC -O Noto_Sans_SC.zip \
+    && unzip -o Noto_Sans_SC.zip -d /usr/share/fonts \
     && fc-cache \
     && wget https://fonts.google.com/download?family=Noto%20Sans%20TC -O Noto_Sans_TC.zip \
     && unzip -o Noto_Sans_TC.zip -d /usr/share/fonts \
-    && fc-cache \
-    && wget https://fonts.google.com/download?family=Noto%20Sans%20SC -O Noto_Sans_SC.zip \
-    && unzip -o Noto_Sans_SC.zip -d /usr/share/fonts \
     && fc-cache
 
 # 清理
