@@ -26,6 +26,13 @@ sudo docker run --rm --name my-app-url-to-pdf-api -p 9527:80 anydong/url-to-pdf-
   * [Roboto](https://fonts.google.com/specimen/Roboto)
   * [Noto Sans Simplified Chinese](https://fonts.google.com/noto/specimen/Noto+Sans+SC)
   * [Noto Sans Traditional Chinese](https://fonts.google.com/noto/specimen/Noto+Sans+TC)
+  * [Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
+
+查看已安装字体
+
+```shell
+fc-list :lang=zh
+```
 
 font-family 设置
 

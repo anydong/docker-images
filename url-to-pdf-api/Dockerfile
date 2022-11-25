@@ -72,6 +72,9 @@ RUN wget https://fonts.google.com/download?family=Roboto -O Roboto.zip \
     && fc-cache \
     && wget https://fonts.google.com/download?family=Noto%20Sans%20TC -O Noto_Sans_TC.zip \
     && unzip -o Noto_Sans_TC.zip -d /usr/share/fonts \
+    && fc-cache \
+    && wget https://github.com/atelier-anchor/smiley-sans/releases/download/v1.0.0/smiley-sans-v1.0.0.zip -O smiley-sans-v1.0.0.zip \
+    && unzip -o smiley-sans-v1.0.0.zip "SmileySans-Oblique.otf" -d /usr/share/fonts \
     && fc-cache
 
 # 清理
